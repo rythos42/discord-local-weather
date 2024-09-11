@@ -1,0 +1,25 @@
+{
+  "name": "local-weather",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wrangler dev",
+    "register": "node src/deploy-commands.js",
+    "publish": "wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord-interactions": "^4.1.0",
+    "itty-router": "^5.0.18"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "eslint": "^9.9.1",
+    "wrangler": "^3.74.0"
+  }
+}
